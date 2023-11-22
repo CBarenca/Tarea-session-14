@@ -44,8 +44,8 @@ while True:
         region = next(data_iterator).text
   
         data.append((
+            int(casos_confirmados.replace(',','')),
             pais,
-            int(casos_confirmados.replace(',', '')),
             int(muertes.replace(',', '')),
             region
         ))
