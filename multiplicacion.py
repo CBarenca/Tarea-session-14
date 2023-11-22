@@ -6,7 +6,7 @@ Created on Tue Nov 21 18:24:05 2023
 """
 
 def multiplica(a,b): 
-    variable1=a*9
+    variable1=a+9
     variable2=b*3
     resultado=variable1*variable2
     print("Empezando for")
